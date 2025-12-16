@@ -1,0 +1,32 @@
+ChatGPT Usage Transparency Statement
+
+This project was developed with the assistance of ChatGPT as an AI support tool.
+
+Purpose of AI Usage:
+ChatGPT was used to support understanding, planning, and implementation of the project. The AI acted as a coding and documentation assistant, not as an autonomous developer.
+
+How ChatGPT Was Used:
+- Clarifying project requirements and expected architecture
+- Designing system architecture and data flow (backend, analytics, frontend)
+- Assisting with backend code structure (FastAPI, WebSocket ingestion, database integration)
+- Helping implement quantitative analytics such as regression, Z-score, and ADF tests
+- Supporting frontend UI improvements and component structuring
+- Debugging errors and suggesting fixes during development
+- Drafting documentation and explanatory notes
+
+Prompts Used (Examples):
+- “Generate architecture diagram for a real-time quant analytics system”
+- “Explain and implement hedge ratio and Z-score analytics”
+- “Fix Streamlit / React UI issues and improve layout”
+- “Provide FastAPI endpoint for CSV export”
+- “Suggest clean UI styling for dashboard components”
+
+Human Contribution:
+All final design decisions, code integration, testing, validation, and submission were performed by the author. AI-generated suggestions were reviewed, modified, and adapted as needed.
+
+Limitations:
+ChatGPT outputs were treated as guidance and not blindly copied. Manual verification and customization were applied to ensure correctness and alignment with project goals.
+
+Declaration:
+This project complies with academic and professional integrity guidelines. AI was used transparently as a productivity and learning aid.
+
