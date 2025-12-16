@@ -68,27 +68,6 @@ trading UI
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fd2bf10e-11fc-45da-a4de-66b93d84094b" />
 
-
-    Binance WebSocket
-            │
-            ▼
-    Tick Ingestion (Background Thread)
-            │
-            ▼
-    Tick Database (SQLite)
-            │
-            ▼
-    Analytics Engine
-    (OLS, Z-Score, ADF, Signals)
-            │
-            ▼
-    FastAPI REST API
-    (/prices, /spread, /analytics, /export)
-            │
-            ▼
-    React Dashboard
-    (Live Charts, Metrics, Alerts)
-
 ------------------------------------------------------------------------
 
 ## 🛠 Tech Stack
@@ -195,23 +174,6 @@ Frontend runs at:
 <!-- -->
 ```
     |Z-Score| > 2
-
-------------------------------------------------------------------------
-
-## ✅ Evaluation Alignment
-
-  Requirement                   Status
-  ----------------------------- --------
-  Binance WebSocket ingestion   ✅
-  Tick storage                  ✅
-  Sampling (1s / 1m / 5m)       ✅
-  OLS hedge ratio               ✅
-  Spread & Z-Score              ✅
-  ADF test                      ✅
-  Rolling windows               ✅
-  Live updates                  ✅
-  Alerts                        ✅
-  CSV export                    ✅
 
 ------------------------------------------------------------------------
 
