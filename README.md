@@ -66,6 +66,9 @@ trading UI
 
 ## 🧠 System Architecture
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fd2bf10e-11fc-45da-a4de-66b93d84094b" />
+
+
     Binance WebSocket
             │
             ▼
